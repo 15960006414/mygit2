@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿/*
+=======
+/*
+>>>>>>> master1
  * @Description: 配置文件
  * @Author: hai-27
  * @Date: 2020-02-07 16:23:00
@@ -35,7 +39,7 @@ module.exports = {
           chunks: "initial",
           priority: 2,
           reuseExistingChunk: true,
-          enforce: 0,
+          enforce: true,
         },
         elementUI: {
           name: "chunk-elementui",
